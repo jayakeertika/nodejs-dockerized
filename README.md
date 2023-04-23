@@ -24,7 +24,7 @@ docker ps
     CONTAINER ID   IMAGE                    COMMAND                  CREATED          STATUS          PORTS                    NAMES
     0ba95eb7388d   jaya/nodejs-dockerized   "docker-entrypoint.s…"   25 seconds ago   Up 24 seconds   0.0.0.0:4900->8080/tcp   dazzling_colden
 
-curl -i localhost:4900  
+curl -i localhost:49160  
 HTTP/1.1 200 OK    
 X-Powered-By: Express    
 Content-Type: text/html; charset=utf-8    
