@@ -6,7 +6,7 @@ docker build . -t jaya/nodejs-dockerized
 ## Run the image ##
 docker run -p 49160:8080 -d jaya/node-web-app 
 
-Print the output of your app:
+Print the output of your app:    
 // Get container ID   
     $ docker ps
 
